@@ -1,0 +1,44 @@
+body {
+    background: rgb(83, 106, 220);
+    background: radial-gradient(
+        circle,
+        rgba(83, 106, 220, 0.66) 7%,
+        rgba(195, 97, 117, 0.75) 100%
+    );
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+input[type='text'] {
+    background-color: #fff;
+    border: 5px;
+    border-radius: 8px;
+    border-bottom: 1px solid #8f8f8f;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 0.33333rem;
+}
+
+/* input[type='text']:focus {
+    border-bottom-color: #a071b8;
+} */
+
+#todo-container {
+    background: rgb(41, 33, 33);
+    width: 400px;
+    margin: 10px auto;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+}
+
+#addTaskBtn {
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+}
+#addTaskBtn:hover {
+    background-color: #9eb7fd;
+    cursor: pointer;
+}
