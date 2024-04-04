@@ -1,6 +1,6 @@
 import { Task } from './types.ts';
 
-export const tasks: Task[] = [
+export const tasklist: Task[] = [
     {
         id: 1,
         title: 'Create React App',
