@@ -28,7 +28,7 @@ function App() {
                 onChange={(e) => setTaskNameAdd(e.target.value)}
             />
             <button id="addTaskBtn" onClick={addtaskHandler}>
-                Add task
+                Add new task
             </button>
             {tasks.map((task) => (
                 <li id="todo-container" key={task.id}>
